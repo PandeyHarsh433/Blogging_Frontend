@@ -1,0 +1,257 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.container {
+  width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-top: 15%;
+    margin-bottom: 20%;
+  }
+}
+@media screen and (min-width: "768px") {
+  .hero-title {
+    margin-top: 10rem;
+  }
+  .hero {
+    margin-top: -2rem;
+  }
+}
+
+.profile {
+  margin-left: 38%;
+}
+@media screen and (width: 768px) {
+  .hero {
+    margin-top: 15%;
+    margin-left: 3rem;
+  }
+  .profile {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .tag {
+    padding-bottom: 10px;
+  }
+  .hero {
+    margin-left: 15%;
+    margin-bottom: 90%;
+    margin-top: 45%;
+    width: 100%;
+    height: 50%;
+  }
+  .hero-title {
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+  }
+  .nav {
+    width: 30rem;
+  }
+  .cards-container {
+    margin-left: 5%;
+  }
+  .container {
+    margin-left: 12%;
+  }
+  .profile {
+    margin-left: 25%;
+  }
+  .newsletter {
+    margin-left: 10%;
+  }
+  .footer {
+    width: 120%;
+  }
+  .about-hr {
+    width: 150%;
+  }
+  .scrollable-container {
+    width: 100%;
+  }
+  .landing {
+    width: 100%;
+  }
+  .aboutme-container{
+    padding:30% 0;
+  }
+  .forgetPass {
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 25%;
+  }
+  .forget-title {
+    padding-right: 7%;
+  }
+}
+.carousel {
+  background-image: url("https://mdbcdn.b-cdn.net/img/new/slides/146.webp");
+  background-position: 50%;
+  height: 100vh;
+  opacity: 0.5;
+  background-size: cover;
+}
+@media screen and (max-width:426px) {
+  .carousel {
+    height: 123vh;
+    width: 123%;
+  }
+  .cat-blogs {
+    padding-top:20% ;
+    margin-left: 13%;
+    margin-right: -10%;
+  }
+}
+.even {
+  clear: both;
+  margin-left: auto;
+  margin-right: 0;
+}
+@media screen and (min-width: 1439px) {
+  .cards-container {
+    min-width: 80%;
+    padding: 5rem;
+  }
+  .hero-title {
+    padding-top: 4rem;
+  }
+  .container {
+    min-height: 20rem;
+    width: 25rem;
+    margin: 5rem;
+    margin-top: -5rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .hero {
+    margin-top: 45%;
+  }
+  .carousel {
+    height: 128vh;
+    width: 128%;
+  }
+  .cat-blogs {
+    margin-left: 13%;
+    margin-right: -14%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .hero {
+    margin-top: 55%;
+    margin-left: 17%;
+  }
+  .hero-title {
+    margin-top: 18rem;
+    margin-right: -2rem;
+  }
+  .nav {
+    width: 130%;
+  }
+  .footer {
+    width: 130%;
+  }
+  .profile {
+    margin-left: 28%;
+  }
+  .newsletter {
+    margin-left: 15%;
+  }
+  .carousel {
+    height: 130vh;
+    width: 130%;
+  }
+}
+.card1 {
+  margin-right: 50rem;
+}
+.card2 {
+  margin-left: 60rem;
+}
+
+/* ......................................................... */
+
+@media screen and (max-width: 769px) {
+  .login {
+    background: transparent;
+  }
+  .carousel {
+    margin-top: -5rem;
+  }
+}
+.svg {
+  cursor: pointer;
+}
+@media (max-width: 1025px) {
+  .register-image {
+    display: none;
+  }
+}
+@media (max-width: 426px) {
+  .signup {
+    margin-left: 20%;
+    margin-right: -5%;
+  }
+  .login {
+    margin-left: 20%;
+    margin-right: -5%;
+  }
+  .blog-post {
+    margin-left: 12%;
+    margin-right: -8%;
+  }
+}
+@media (max-width: 321px) {
+  .signup {
+    margin-left: 20%;
+    margin-right: -15%;
+  }
+  .login {
+    margin-right: -15%;
+    margin-left: 15%;
+  }
+  .blog-post {
+    margin-left: 13%;
+    margin-right: -14%;
+  }
+}
+.custom-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-hover-effect:hover {
+  transform: scale(0.95);
+}
+.blogs {
+  clear: both;
+}
+::-webkit-scrollbar {
+  display: none;
+}
