@@ -76,7 +76,7 @@ This page allows users to reset their account password by providing a new passwo
 To install this project on your local machine, follow these steps:
 Clone the repository to your local machine.
 
-1. git clone https://github.com/your-username/your-repo.git
+1. git clone https://github.com/PandeyHarsh433/Blogging_Frontend
 2. cd your-repo
 3. npm install
 4. npm run dev
