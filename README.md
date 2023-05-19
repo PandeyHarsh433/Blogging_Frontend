@@ -1,4 +1,4 @@
-<a href="https://pandey-harsh-c2049f.netlify.app/"><img src="https://i.ibb.co/S6RHKQp/Screenshot-159.png" alt="My- Blogging website" width="60%"></a>
+<a href="https://peaceful-cupcake-6ebc4d.netlify.app/"><img src="https://i.ibb.co/S6RHKQp/Screenshot-159.png" alt="My- Blogging website" width="60%"></a>
 
 # Blogging Frontend Website
 This is a frontend website for a blogging platform created using Next.js and Tailwind CSS. It provides various components and pages to help you build a functional blogging website. The following is a list of components and pages included in this project:
