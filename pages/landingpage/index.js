@@ -11,11 +11,16 @@ const index = () => {
     <>
       <Background />
       <div className="landing">
-        <Navbar />
-        <Hero />
-        <Explore />
-        <Aboutme />
-        <Footer />
+        <div>
+          <Navbar />
+          <Hero />
+          <Explore />
+        </div>
+        <hr className="about-hr" style={{ border: "0.2px solid white" }} />
+        <div className="about-section">
+          <Aboutme />
+          <Footer />
+        </div>
       </div>
     </>
   );
