@@ -91,7 +91,7 @@ body {
     width: 120%;
   }
   .about-hr {
-    width: 150%;
+    width: 100%;
   }
   .scrollable-container {
     width: 100%;
@@ -99,8 +99,8 @@ body {
   .landing {
     width: 100%;
   }
-  .aboutme-container{
-    padding:30% 0;
+  .aboutme-container {
+    padding: 30% 0;
   }
   .forgetPass {
     width: 100%;
@@ -118,15 +118,21 @@ body {
   opacity: 0.5;
   background-size: cover;
 }
-@media screen and (max-width:426px) {
+@media screen and (max-width: 426px) {
   .carousel {
     height: 123vh;
     width: 123%;
   }
   .cat-blogs {
-    padding-top:20% ;
+    padding-top: 20%;
     margin-left: 13%;
     margin-right: -10%;
+  }
+  .about-section {
+    width: 100%;
+  }
+  .about-hr {
+    margin-left: 10%;
   }
 }
 .even {
@@ -161,6 +167,9 @@ body {
     margin-left: 13%;
     margin-right: -14%;
   }
+  .about-hr {
+    margin-left: 12%;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -187,6 +196,9 @@ body {
   .carousel {
     height: 130vh;
     width: 130%;
+  }
+  .about-hr {
+    margin-left: 14%;
   }
 }
 .card1 {
@@ -254,4 +266,13 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .about-hr {
+    margin-top: 4rem;
+  }
+  .about-section {
+    margin-top: 5rem;
+  }
 }
